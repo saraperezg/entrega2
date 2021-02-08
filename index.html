@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body style="background-color: #BDDAFF;">
+	<center><h1 style="font-variant: small-caps; font-family: cursive; text-shadow: 3px 3px 1px white, 5px 5px 2px black, 8px 8px 3px white;">Funcionamientos excel</h1></center>
+<center>
+<button class="button button1" onclick="suma()">suma</button>
+<button class="button button2" onclick="contar()">contar</button>
+<button class="button button3" onclick="promedio()">promedio</button>
+<button class="button button4" onclick="minimo()">minimo</button>
+<button class="button button5" onclick="buscar()">buscar</button>
+<button class="button button6" onclick="indice()">indice</button>
+<button class="button button7" onclick="coincidir()">coincidir</button>
+</center>
+<center>
+<div style="display: none;" id="obj1">
+	<div class="div-imagen">
+      <h2>como funciona</h2>
+<p>los primero que tenemos que hacer es poner un igual el cual nos ayudara a que nos de un resultado la operación despues de esto colocaremos suma para que se ejecute esa operacion lusgo colocaremos un parentecis para iniciar la operación luego tomaremos las casillas que queremos sumar esto se puede hacer selencionado la primera y arrastrando hacia la ultima casilla depues vamos ha cerrar el parenteis y a darle enter</p>
+  <img class="desvanecer" src="img1.png" />
+</div>
+</div>
+<div style="display: none;" id="obj2">
+	<div class="div-imagen">
+      <h2>como funciona</h2>
+<p>los primero que tenemos que hacer es poner un igual el cual nos ayudara a que nos de un resultado la operación despues de esto colocaremos contar para que se ejecute esa operacion luego colocaremos un parentecis para iniciar la operación luego tomaremos las casillas que queremos contar esto se puede hacer selencionado la primera y arrastrando hacia la ultima casilla depues vamos ha cerrar el parenteis y a darle enter</p>
+  <img class="desvanecer" src="img2.png" />
+</div>
+</div>
+<div style="display: none;" id="obj3">
+	<div class="div-imagen">
+      <h2>como funciona</h2>
+<p>los primero que tenemos que hacer es poner un igual el cual nos ayudara a que nos de un resultado la operación despues de esto colocaremos promedio para que se ejecute esa operacion luego colocaremos un parentecis para iniciar la operación luego tomaremos las casillas que queremos promediar esto se puede hacer selencionado la primera y arrastrando hacia la ultima casilla depues vamos ha cerrar el parenteis y a darle enter</p>
+  <img class="desvanecer" src="img5.png" />
+</div>
+</div>
+<div style="display: none;" id="obj4">
+	<div class="div-imagen">
+      <h2>como funciona</h2>
+<p>los primero que tenemos que hacer es poner un igual el cual nos ayudara a que nos de un resultado la operación despues de esto colocaremos min para que se ejecute esa operacion luego colocaremos un parentecis para iniciar la operación luego tomaremos las casillas que queremos sacar el minimo esto se puede hacer selencionado la primera y arrastrando hacia la ultima casilla depues vamos ha cerrar el parenteis y a darle enter</p>
+  <img class="desvanecer" src="img4.png" />
+</div>
+</div>
+<div style="display: none;" id="obj5">
+	<div class="div-imagen">
+      <h2>como funciona</h2>
+<p>los primero que tenemos que hacer es poner un igual el cual nos ayudara a que nos de un resultado la operación despues de esto colocaremos buscarv para que se ejecute esa operacion luego colocaremos un parentecis para iniciar la operación luego tomaremos las casillas que queremos buscar, despues de esto colocaremos donde queremos poer lo buscado ademas esto va separado por un punto y coma, luego colocaremos el numero de la columna, esto tambien va separado por un punto y coma y alfunal un falso yverdadero donde falso es para algo mas preciso y verdadero algo impreciso lugo colocaremos el parentesis y de damos enter</p>
+  <img class="desvanecer" src="img6.png" />
+</div>
+</div>
+<div style="display: none;" id="obj6">
+	<div class="div-imagen">
+      <h2>como funciona</h2>
+<p>los primero que tenemos que hacer es poner un igual el cual nos ayudara a que nos de un resultado la operación depues de esto colocaremos indice para que se ejecute esa operacion luego colocaremos un parentecis para iniciar la operación luego tomaremos desde el principio del cuadro hasta el final colocaremos un punto y coma para luego colocar lo que queremos buscar, colocamos el parentesis y le damos enter </p>
+  <img class="desvanecer" src="img7.png" />
+</div>
+</div>
+<div style="display: none;" id="obj7">
+	<div class="div-imagen">
+      <h2>como funciona</h2>
+<p>los primero que tenemos que hacer es poner un igual el cual nos ayudara a que nos de un resultado la operación depues de esto colocaremos coincidir para que se ejecute esa operacion luego colocaremos un parentecis para iniciar la operación luego tomaremos las casillas que queremos utilizar, luego un punto y coma despues donde la queremoa colocar y por ultimo ponemos 0 si es un valor exacto y 1 si es inexacto </p>
+  <img class="desvanecer" src="img8.png" />
+</div>
+</div>
+</center>
+</body>
+</html>
+<script type="text/javascript">
+  function suma() {
+   document.getElementById('obj1').style.display = 'block';
+   document.getElementById('obj2').style.display = 'none';
+   document.getElementById('obj3').style.display = 'none';
+   document.getElementById('obj4').style.display = 'none';
+   document.getElementById('obj5').style.display = 'none';
+   document.getElementById('obj6').style.display = 'none';
+   document.getElementById('obj7').style.display = 'none';
+  }
+  function contar() {
+   document.getElementById('obj2').style.display = 'block';
+   document.getElementById('obj1').style.display = 'none';
+   document.getElementById('obj3').style.display = 'none';
+   document.getElementById('obj4').style.display = 'none';
+   document.getElementById('obj5').style.display = 'none';
+   document.getElementById('obj6').style.display = 'none';
+   document.getElementById('obj7').style.display = 'none';
+  }
+    function promedio() {
+   document.getElementById('obj3').style.display = 'block';
+   document.getElementById('obj2').style.display = 'none';
+   document.getElementById('obj1').style.display = 'none';
+   document.getElementById('obj4').style.display = 'none';
+   document.getElementById('obj5').style.display = 'none';
+   document.getElementById('obj6').style.display = 'none';
+   document.getElementById('obj7').style.display = 'none';
+  }
+    function minimo() {
+   document.getElementById('obj4').style.display = 'block';
+   document.getElementById('obj2').style.display = 'none';
+   document.getElementById('obj3').style.display = 'none';
+   document.getElementById('obj1').style.display = 'none';
+   document.getElementById('obj5').style.display = 'none';
+   document.getElementById('obj6').style.display = 'none';
+   document.getElementById('obj7').style.display = 'none';
+  }
+    function buscar() {
+   document.getElementById('obj5').style.display = 'block';
+   document.getElementById('obj2').style.display = 'none';
+   document.getElementById('obj3').style.display = 'none';
+   document.getElementById('obj4').style.display = 'none';
+   document.getElementById('obj1').style.display = 'none';
+   document.getElementById('obj6').style.display = 'none';
+   document.getElementById('obj7').style.display = 'none';
+  }
+    function indice() {
+   document.getElementById('obj6').style.display = 'block';
+   document.getElementById('obj2').style.display = 'none';
+   document.getElementById('obj3').style.display = 'none';
+   document.getElementById('obj4').style.display = 'none';
+   document.getElementById('obj5').style.display = 'none';
+   document.getElementById('obj1').style.display = 'none';
+   document.getElementById('obj7').style.display = 'none';
+  }
+    function coincidir() {
+   document.getElementById('obj7').style.display = 'block';
+   document.getElementById('obj2').style.display = 'none';
+   document.getElementById('obj3').style.display = 'none';
+   document.getElementById('obj4').style.display = 'none';
+   document.getElementById('obj5').style.display = 'none';
+   document.getElementById('obj6').style.display = 'none';
+   document.getElementById('obj1').style.display = 'none';
+  }
+
+</script>

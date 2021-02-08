@@ -1,0 +1,108 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #D6BDFF;
+}
+
+.button1:hover {
+    background-color: #D6BDFF;
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #D6BDFF;
+}
+
+.button2:hover {
+    background-color: #D6BDFF;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #D6BDFF;
+}
+
+.button3:hover {
+    background-color: #D6BDFF;
+    color: white;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #D6BDFF;
+}
+
+.button4:hover {background-color: #D6BDFF;}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #D6BDFF;
+}
+
+.button5:hover {
+    background-color: #D6BDFF;
+    color: white;
+}
+.button6 {
+    background-color: white;
+    color: black;
+    border: 2px solid #D6BDFF;
+}
+
+.button6:hover {
+    background-color: #D6BDFF;
+    color: white;
+}
+.button7 {
+    background-color: white;
+    color: black;
+    border: 2px solid #D6BDFF;
+}
+
+.button7:hover {
+    background-color: #D6BDFF;
+    color: white;
+}
+.div-imagen {
+  display:inline-block;
+  position:relative;
+}
+
+.div-imagen > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+}
+
+.desvanecer:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
